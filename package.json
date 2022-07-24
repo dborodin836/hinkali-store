@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "serve": "ng server",
-    "start": "node server.js",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint"
+    "serve": "cd frontend && ng server",
+    "start": "cd frontend && node server.js",
+    "build": "cd frontend && ng build",
+    "watch": "cd frontend && ng build --watch --configuration development",
+    "test": "cd frontend && ng test",
+    "lint": "cd frontend && ng lint"
   },
   "private": true,
   "dependencies": {
